@@ -1,3 +1,8 @@
+# About
+
+his sample is a simple app based on NodeJS, nginx and Angular, where we will be configuring and releasing all the images using
+docker and docker-compose.
+
 ## Network
 
 - docker network create complexmono

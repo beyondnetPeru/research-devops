@@ -1,6 +1,6 @@
 // Environment specific configuration injected into the container
 module.exports = {
-  postgresHost: "localhost",
+  postgresHost: "postgres-todo",
   postgresPort: 5432,
   postgresDatabase: "complexmono",
   postgresUser: "complexmono",
