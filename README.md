@@ -1,11 +1,12 @@
-# research-js-microservices
+# research-devops
 
-Research applying Microservice Concepts with JS
+Research applying DevOps concepts from a development perspective.
 
 ## Stack
 
-- DevOps: Docker, Kubernetes, Helm
-- Cloud: AWS
-- FrontEnd: NextJs, Vite
-- Architecture: MicrofrontEnd, Microservices.
-- Languages: JS, TS, C#, NET, NodeJs
+- Docker
+- Kubernetes
+- Skaffold
+- Helm
+- Pipelines
+- AWS AKS
