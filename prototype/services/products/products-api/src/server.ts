@@ -5,9 +5,9 @@ const app: Application = express();
 const PORT: number = 3002;
 
 app.use("/", (req: Request, res: Response): void => {
-  res.send("Listeing products...");
+  res.send("Listening products...");
 });
 
 app.listen(PORT, (): void => {
-  console.log("SERVER IS UP ON PORT:", PORT);
+  console.log("PROUCTS-API is running on PORT:", PORT);
 });

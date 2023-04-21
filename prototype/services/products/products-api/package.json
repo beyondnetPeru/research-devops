@@ -4,7 +4,7 @@
   "description": "An API for products",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc && node ./build/app.js"
+    "start": "npx tsc && node ./build/server.js"
   },
   "keywords": [],
   "author": "",
