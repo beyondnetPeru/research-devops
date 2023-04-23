@@ -1,18 +1,16 @@
-# research-devops
+# Research DevOps Concepts and Tools
 
-Research applying DevOps concepts from a development perspective.
+Research DevOps concepts and tools from a development perspective.
 
-## Stack
+## Resources  
 
-- Monorepo: Nx
 - Docker
 - Kubernetes
 - Skaffold
 - Helm
-- Pipelines
 - AWS EKS
+- Fargate
+- Monorepo: Nx
 
-## Prototype
 
-- Monorepo repository using Nx
-- Integrating monorepo witrh Kubernetes
+
