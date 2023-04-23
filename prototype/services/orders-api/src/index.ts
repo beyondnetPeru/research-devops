@@ -14,14 +14,14 @@ app.use(
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')))
 
-app.get('/api/orders', async (req, res) => {
+app.get('/orders', async (req, res) => {
   await res.send(getOrders())
 })
 
-const port = 3002
+const port = 8080
 
 const server = app.listen(port, () => {
-  console.log(`Listening at http://localhost:${port}/api`)
+  console.log(`Listening at http://localhost:${port}`)
 })
 
 server.on('error', console.error)

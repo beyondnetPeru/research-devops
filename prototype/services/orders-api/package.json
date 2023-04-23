@@ -7,8 +7,8 @@
     "test": "jest --coverage --setupFiles dotenv/config",
     "test:watch": "jest --watch",
     "dev": "nodemon",
-    "prod": "npm run build && node build/index.js",
-    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node dist/index.js",
+    "build": "rimraf ./dist && tsc",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
