@@ -10,7 +10,7 @@ Research applying DevOps concepts from a development perspective.
 - Skaffold
 - Helm
 - Pipelines
-- AWS AKS
+- AWS EKS
 
 ## Prototype
 
